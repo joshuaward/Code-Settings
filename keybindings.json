@@ -1,0 +1,57 @@
+// Place your key bindings in this file to overwrite the defaults
+[{
+		"key": "cmd+shift+d",
+		"command": "editor.action.selectHighlights"
+	},
+	{
+		"key": "cmd+`",
+		"command": "workbench.action.terminal.toggleTerminal"
+	},
+	{
+		"key": "alt+shift+p",
+		"command": "extension.transformHtmlToPug",
+	},
+	{
+		"key": "shift+cmd+l",
+		"command": "workbench.action.editor.changeLanguageMode"
+	},
+	{
+		"key": "shift+alt+f",
+		"command": "pugbeautify.execute",
+		"when": "editorLangId == 'jade'"
+	},
+	{
+		"key": "shift+alt+f",
+		"command": "csscomb.execute",
+		"when": "editorLangId == 'css'"
+	},
+	{
+		"key": "shift+alt+f",
+		"command": "csscomb.execute",
+		"when": "editorLangId == 'scss'"
+	},
+	{
+		"key": "shift+alt+f",
+		"command": "csscomb.execute",
+		"when": "editorLangId == 'sass'"
+	},
+	{
+		"key": "shift+alt+c",
+		"command": "postcssSorting.execute",
+		"when": "editorLangId == 'css'"
+	},
+	{
+		"key": "shift+alt+c",
+		"command": "postcssSorting.execute",
+		"when": "editorLangId == 'scss'"
+	},
+	{
+		"key": "shift+alt+c",
+		"command": "postcssSorting.execute",
+		"when": "editorLangId == 'sass'"
+	},
+	{
+		"key": "ctrl+shift+c",
+		"command": "postcssSorting.execute"
+	}
+]
